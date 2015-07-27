@@ -26,7 +26,7 @@
         "psr-0": {
             "mata-man": "src"
         }
-    }
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
