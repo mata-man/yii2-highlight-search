@@ -1,24 +1,38 @@
 {
     "name": "mata-man/yii2-highlight-search",
-    "type": "library",
+    "type": "yii2-extension",
     "description": "Yii2 Highlight and search",
-    "keywords": ["log","logging"],
+    "keywords": ["mata-man","yii","yii2","extension","widget","yii2-highlight-search"],
     "homepage": "https://github.com/mata-man/yii2-highlight-search",
-    "license": "MIT",
+    "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "David Mata",
+            "name": "Mata-Man Enterprises",
             "email": "tripskeet@hotmail.com",
             "homepage": "http://answersonthego.com",
             "role": "Developer"
         }
     ],
+    "support": {
+        "issues": "https://github.com/mata-man/yii2-highlight-search/issues",
+        "source": "https://github.com/mata-man/yii2-highlight-search"
+    },
     "require": {
-        "php": ">=5.4.0"
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "bower-asset/select2": "3.5.2"
     },
     "autoload": {
         "psr-0": {
             "mata-man": "src"
+        }
+    }
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
         }
     }
 }
