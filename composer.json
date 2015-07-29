@@ -20,11 +20,10 @@
     "require": {
         "yiisoft/yii2": "*",
         "yiisoft/yii2-bootstrap": "*",
-        "bower-asset/select2": "3.5.2"
     },
     "autoload": {
-        "psr-0": {
-            "mata-man": "src"
+        "psr-4": {
+            "mataman\\highlightsearch\\":""
         }
     },
     "extra": {
